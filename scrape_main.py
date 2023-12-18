@@ -6,7 +6,7 @@ from scrape_cnn import scrape_cnn
 from scrape_jpost import scrape_jpost
 
 
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = 'YOUR_API_KEY'
 
 # Define start and end dates
 start_date = datetime.strptime('10-28-2023', '%m-%d-%Y')
